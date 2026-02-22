@@ -272,7 +272,7 @@ embedding_layer = nn.Embedding(vocab_size, embedding_dim)
 Internally, this is a **weight matrix** $\mathbf{E} \in \mathbb{R}^{V \times d}$:
 
 $$
-\text{embed}(\text{token\_id}) = \mathbf{E}[\text{token\_id}]
+\text{embed}(\text{token}_{id}) = \mathbf{E}[\text{token}_{id}]
 $$
 
 #### **How Embeddings Learn Semantic Similarity**
